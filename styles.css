@@ -46,24 +46,11 @@
     color: #83869A;
     font-family: PlusJakartaSans-r;
     line-height: 26px;
-    font-size: 1vw;
 }
 
 .main .grid .content .btn-content {
     height: 63px;
     border-radius: 31px;
-}
-
-.main .grid .cards-group {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-.main .grid .cards-group .card {
-    width: 350px;
-    height: 322px;
 }
 
 .df-color {
