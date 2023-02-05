@@ -12,7 +12,7 @@
 .main .header {
     display: flex;
     justify-content: space-between;
-    padding: 0 11%;
+    padding: 0 16%;
 }
 
 .main .header .logo {
@@ -26,7 +26,7 @@
 
 .main .grid {
     margin: auto;
-    width: 90%;
+    width: 80%;
     padding: 1% 6%;
 }
 
@@ -65,7 +65,7 @@
     align-items: center;
     background-color: #13183F;
     height: 120px;
-    padding: 0 11%;
+    padding: 0 16%;
 }
 
 .main .footer .btn-footer {
