@@ -44,6 +44,7 @@
     color: #83869A;
     font-family: PlusJakartaSans-r;
     line-height: 26px;
+    margin: 30px 0;
 }
 
 .main .grid .content .btn-content {
@@ -84,4 +85,41 @@
 .btn:hover {
     opacity: 80%;
     cursor: pointer;
+}
+
+.cards-group {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
+}
+
+.card {
+    font-family: PlusJakartaSans-m;
+    box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.08);
+    width: 350px;
+    height: 322px;
+    border-radius: 15px;
+}
+
+.card :only-child {
+    color: white;
+    padding: 64 32px 138px 32px;
+}
+
+.card h1 {
+    color: #13183F;
+}
+
+.card p {
+    font-family: PlusJakartaSans-r;
+    color: #83869A;
+}
+
+.card button {
+    color: #F74780;
+    border: none;
+    background-color: inherit;
+    cursor: pointer;
+    font-weight: 700;
 }
