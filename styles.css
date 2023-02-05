@@ -94,12 +94,19 @@
     cursor: pointer;
 }
 
-.cards-group {}
-
 .cards-group .row {
     display: flex;
     justify-content: space-between;
     flex-flow: wrap;
+    margin-bottom: 120px;
+}
+
+.card-mobile {
+    color: white;
+    width: 350px;
+    height: 322px;
+    border-radius: 15px;
+    padding: 25px 20px;
 }
 
 .card {
@@ -109,10 +116,18 @@
     height: 322px;
     border-radius: 15px;
     background-color: white;
+    position: relative;
+    padding: 60px 20px;
 }
 
-.card :only-child {
-    color: white;
+.card img {
+    position: absolute;
+    top: -30px;
+    left: 30px;
+}
+
+.card p {
+    padding: 40px 0px
 }
 
 .card h1 {
