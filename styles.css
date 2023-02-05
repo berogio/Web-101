@@ -32,6 +32,7 @@
 
 .main .grid .content {
     max-width: 500px;
+    padding: 130px 0px;
 }
 
 .main .grid .content h1 {
@@ -55,6 +56,7 @@
 
 .main .grid .content .memebrs-img :first-child {
     display: none;
+    max-width: 100%;
 }
 
 .main .footer {
@@ -94,7 +96,11 @@
 
 .cards-group {}
 
-.cards-group .row {}
+.cards-group .row {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: wrap;
+}
 
 .card {
     font-family: PlusJakartaSans-m;
@@ -102,11 +108,11 @@
     width: 350px;
     height: 322px;
     border-radius: 15px;
+    background-color: white;
 }
 
 .card :only-child {
     color: white;
-    padding: 64 32px 138px 32px;
 }
 
 .card h1 {
