@@ -10,6 +10,10 @@
     .main .grid {
         width: 98% !important;
     }
+
+    .main .grid .content .memebrs-img :first-child {
+        display: block !important;
+    }
 }
 
 @media screen and (max-width: 1024px) {

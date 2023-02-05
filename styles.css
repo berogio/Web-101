@@ -6,6 +6,7 @@
 
 .main {
     padding-top: 25px;
+    background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
 }
 
 .main .header {
@@ -52,6 +53,10 @@
     border-radius: 31px;
 }
 
+.main .grid .content .memebrs-img :first-child {
+    display: none;
+}
+
 .main .footer {
     display: flex;
     justify-content: space-between;
@@ -87,12 +92,9 @@
     cursor: pointer;
 }
 
-.cards-group {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
-}
+.cards-group {}
+
+.cards-group .row {}
 
 .card {
     font-family: PlusJakartaSans-m;
