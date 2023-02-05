@@ -74,6 +74,57 @@
     height: 56px;
 }
 
+.main .grid .cards-group .row {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: wrap;
+    margin-bottom: 110px;
+}
+
+.main .grid .cards-group .row .card-mobile {
+    color: white;
+    width: 350px;
+    height: 322px;
+    border-radius: 15px;
+    padding: 28px 20px;
+}
+
+.main .grid .cards-group .row .card {
+    font-family: PlusJakartaSans-m;
+    box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.08);
+    width: 350px;
+    height: 322px;
+    border-radius: 15px;
+    background-color: white;
+    position: relative;
+    padding: 60px 20px;
+}
+
+.main .grid .cards-group .row .card img {
+    position: absolute;
+    top: -30px;
+    left: 30px;
+}
+
+.main .grid .cards-group .row .card h1 {
+    color: #13183F;
+}
+
+.main .grid .cards-group .row .card p {
+    padding: 40px 0px;
+    font-family: PlusJakartaSans-r;
+    color: #83869A;
+}
+
+.main .grid .cards-group .row .card button {
+    color: #F74780;
+    border: none;
+    background-color: inherit;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 18px;
+}
+
 .df-color {
     background: linear-gradient(#FF6F48, #F02AA6);
 }
@@ -92,58 +143,4 @@
 .btn:hover {
     opacity: 80%;
     cursor: pointer;
-}
-
-.cards-group .row {
-    display: flex;
-    justify-content: space-between;
-    flex-flow: wrap;
-    margin-bottom: 120px;
-}
-
-.card-mobile {
-    color: white;
-    width: 350px;
-    height: 322px;
-    border-radius: 15px;
-    padding: 25px 20px;
-}
-
-.card {
-    font-family: PlusJakartaSans-m;
-    box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.08);
-    width: 350px;
-    height: 322px;
-    border-radius: 15px;
-    background-color: white;
-    position: relative;
-    padding: 60px 20px;
-}
-
-.card img {
-    position: absolute;
-    top: -30px;
-    left: 30px;
-}
-
-.card p {
-    padding: 40px 0px
-}
-
-.card h1 {
-    color: #13183F;
-}
-
-.card p {
-    font-family: PlusJakartaSans-r;
-    color: #83869A;
-}
-
-.card button {
-    color: #F74780;
-    border: none;
-    background-color: inherit;
-    cursor: pointer;
-    font-weight: 700;
-    font-size: 18px;
 }
