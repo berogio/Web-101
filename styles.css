@@ -9,7 +9,7 @@
 .main .grid {
     margin: auto;
     width: 90%;
-    padding: 2%;
+    padding: 1% 6%;
 }
 
 .main .grid .header {
@@ -38,7 +38,8 @@
     color: #13183F;
     font-family: PlusJakartaSans-b;
     line-height: 50px;
-    font-size: 2.6vw;
+    font-size: 55px;
+    height: 143px;
 }
 
 .main .grid .content p {
@@ -51,6 +52,18 @@
 .main .grid .content .btn-content {
     height: 63px;
     border-radius: 31px;
+}
+
+.main .grid .cards-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.main .grid .cards-group .card {
+    width: 350px;
+    height: 322px;
 }
 
 .df-color {
