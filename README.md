@@ -17,7 +17,7 @@ Welcome to the Web-101 Landing Page project! This is a simple landing page creat
 
 ## Live Demo
 
-Check out the live demo of the Web-101 Landing Page [here]([LINK_TO_YOUR_LIVE_DEMO](https://berogio.github.io/Web-101/)).
+Check out the live demo of the Web-101 Landing Page [here](https://berogio.github.io/Web-101/).
 
 ## Getting Started
 
@@ -26,4 +26,5 @@ To run this landing page locally, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/berogio/Web-101.git
+   git clone https://github.com/YOUR_USERNAME/web-101-landing.git
+- Author Giorgi Beridze [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?logo=linkedin&logoColor=white&style=flat)](https://www.linkedin.com/in/giorgi-beridze-427902238/)
